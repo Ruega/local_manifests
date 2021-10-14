@@ -11,7 +11,7 @@
 	<project path="device/qcom/sepolicy-legacy-um" name="LineageOS/android_device_qcom_sepolicy" remote="git" revision="lineage-18.1-legacy-um" clone-depth="1" />
  	<project path="device/asus/X00TD" name="Ruega/android_device_asus_X00TD" remote="git" revision="404" clone-depth="1" />
  	<project path="device/asus/sdm660-common" name="Ruega/android_device_asus_sdm660-common" remote="git" revision="404" clone-depth="1" />
-	<project path="kernel/asus/sdm636" name="Tiktodz/kernel_asus_sdm660" remote="git" revision="master" clone-depth="1" />
+	<project path="kernel/asus/sdm660" name="Tiktodz/kernel_asus_sdm636" remote="git" revision="master" clone-depth="1" />
 	<project path="vendor/asus" name="Ruega/proprietary_vendor_asus" remote="git" revision="404" clone-depth="1" />
 
 </manifest>

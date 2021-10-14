@@ -2,19 +2,16 @@
 
 <manifest>
 
-    <remote name="Ruega"
-          fetch="https://github.com/Ruega" />
-
-    <remote name="fajar4561"
-          fetch="https://github.com/fajar4561" />
+    <remote name="git"
+          fetch="https://github.com" />
 
   <!-- Sync trees -->
-        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Ruega" revision="10" clone-depth="1" />
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Ruega" revision="10" clone-depth="1" />
-        <project path="vendor/asus" name="proprietary_vendor_asus" remote="Ruega" revision="10" clone-depth="1" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Ruega" revision="master" clone-depth="1" />
-
-        <remove-project name="LineageOS/android_hardware_qcom_audio" />
-        <project name="android_hardware_qcom_audio" path="hardware/qcom-caf/msm8998/audio" remote="fajar4561" revision="lineage-17.1-caf-msm8998" clone-depth="1" />
+ 	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="git" revision="master" clone-depth="1" />
+	<project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="git" revision="lineage-18.1" clone-depth="1" />
+	<project path="device/qcom/sepolicy-legacy-um" name="LineageOS/android_device_qcom_sepolicy" remote="git" revision="lineage-18.1-legacy-um" clone-depth="1" />
+ 	<project path="device/asus/X00TD" name="Ruega/android_device_asus_X00TD" remote="git" revision="404" clone-depth="1" />
+ 	<project path="device/asus/sdm660-common" name="Ruega/android_device_asus_sdm660-common" remote="git" revision="404" clone-depth="1" />
+	<project path="kernel/asus/sdm636" name="Tiktodz/kernel_asus_sdm660" remote="git" revision="master" clone-depth="1" />
+	<project path="vendor/asus" name="Ruega/proprietary_vendor_asus" remote="git" revision="404" clone-depth="1" />
 
 </manifest>

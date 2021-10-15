@@ -13,7 +13,7 @@
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Ruega" revision="17" clone-depth="1" />
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Ruega" revision="17" clone-depth="1" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="Ruega" revision="18" clone-depth="1" />
-        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="Ruega" revision="HMP" clone-depth="1" />
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Ruega" revision="master" clone-depth="1" />
 
   <!-- Remove trees -->
         <remove-project name="LineageOS/android_hardware_qcom_audio" />

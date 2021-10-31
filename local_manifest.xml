@@ -6,18 +6,12 @@
     <remote name="Ruega"
           fetch="https://github.com/Ruega" />
   <!-- Remote Github -->
-    <remote name="fajar4561"
-          fetch="https://github.com/fajar4561" />
+    <remote name="Tiktodz"
+          fetch="https://github.com/Tiktodz" />
 
   <!-- Sync trees -->
-        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Ruega" revision="17" clone-depth="1" />
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Ruega" revision="17" clone-depth="1" />
-        <project path="vendor/asus" name="proprietary_vendor_asus" remote="Ruega" revision="18" clone-depth="1" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Ruega" revision="master" clone-depth="1" />
-
-  <!-- Remove trees -->
-        <remove-project name="LineageOS/android_hardware_qcom_audio" />
-  <!-- Sync trees -->
-        <project name="android_hardware_qcom_audio" path="hardware/qcom-caf/msm8998/audio" remote="fajar4561" revision="lineage-17.1-caf-msm8998" clone-depth="1" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Ruega" revision="main" clone-depth="1" />
+        <project path="vendor/asus" name="vendor_asus_X00TD" remote="Ruega" revision="main" clone-depth="1" />
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="master" clone-depth="1" />
 
 </manifest>

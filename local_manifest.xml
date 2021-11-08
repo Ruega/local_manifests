@@ -6,8 +6,8 @@
     <remote name="Ruega"
         fetch="https://github.com/Ruega" />
        <!-- Remote Github -->
-    <remote name="FyyyyK"
-        fetch="https://github.com/FyyyyK" />
+    <remote name="Tiktodz"
+        fetch="https://github.com/Tiktodz" />
        <!-- Remote Github -->
     <remote name="lineage"
         fetch="https://github.com/LineageOS"
@@ -17,7 +17,7 @@
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Ruega" revision="11" clone-depth="1" />
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Ruega" revision="11" clone-depth="1" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="Ruega" revision="11" clone-depth="1" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="FyyyyK" revision="eas" clone-depth="1" />
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="master" clone-depth="1" />
 
        <!-- Hals stuff -->
         <remove-project name="android_hardware_qcom_audio" />

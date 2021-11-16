@@ -5,26 +5,24 @@
        <!-- Remote Github -->
     <remote name="Ruega"
         fetch="https://github.com/Ruega" />
+
        <!-- Remote Github -->
     <remote name="Tiktodz"
         fetch="https://github.com/Tiktodz" />
+
        <!-- Remote Github -->
     <remote name="lineage"
         fetch="https://github.com/LineageOS"
         revision="refs/heads/lineage-18.1" />
 
        <!-- Sync trees -->
-        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Ruega" revision="11" clone-depth="1" />
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Ruega" revision="11" clone-depth="1" />
-        <project path="vendor/asus" name="proprietary_vendor_asus" remote="Ruega" revision="11" clone-depth="1" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="master" clone-depth="1" />
+        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Ruega" revision="10" clone-depth="1" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Ruega" revision="10" clone-depth="1" />
+        <project path="vendor/asus" name="proprietary_vendor_asus" remote="Ruega" revision="10" clone-depth="1" />
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="tom" clone-depth="1" />
 
        <!-- Hals stuff -->
         <remove-project name="android_hardware_qcom_audio" />
-        <remove-project name="android_hardware_qcom_display" />
-        <remove-project name="android_hardware_qcom_media" />
-        <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="lineage" revision="lineage-18.1-caf-msm8998" />
         <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="lineage" revision="lineage-18.1-caf-msm8998" />
-        <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="lineage" revision="lineage-18.1-caf-msm8998" />
 
 </manifest>

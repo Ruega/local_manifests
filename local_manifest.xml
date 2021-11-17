@@ -15,6 +15,6 @@
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="master" />
 
         <remove-project name="LineageOS/android_hardware_qcom_audio" />
-        <project name="android_hardware_qcom_audio" path="hardware/qcom-caf/msm8998/audio" remote="LineageOS" revision="lineage-17.1-caf-msm8998" clone-depth="1" />
+        <project name="android_hardware_qcom_audio" path="hardware/qcom-caf/msm8998/audio" remote="LineageOS" revision="lineage-17.1-caf-msm8998" />
 
 </manifest>

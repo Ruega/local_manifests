@@ -11,7 +11,7 @@
         fetch="https://github.com/Tiktodz" />
 
         <!-- Remote Github -->
-        <remote name="lineage"
+        <remote name="LineageOS"
         fetch="https://github.com/LineageOS"
 
         <!-- Sync trees -->

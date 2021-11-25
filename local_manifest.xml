@@ -2,17 +2,10 @@
 
 <manifest>
 
-       <!-- Remote Github -->
     <remote name="Ruega"
         fetch="https://github.com/Ruega" />
-
-       <!-- Remote Github -->
     <remote name="Kendras056"
         fetch="https://github.com/Kendras056" />
-
-       <!-- Remote Github -->
-    <remote name="xyz-prjkt"
-        fetch="https://github.com/xyz-prjkt"
 
        <!-- Sync trees -->
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Ruega" revision="11" />
@@ -21,8 +14,9 @@
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Kendras056" revision="master" />
 
        <!-- Remove -->
-        <remove-project name="hw_media" />
+        <remove-project name="hw_audio" />
+        <remove-project name="xd_packages_apps_SoftAPManager" />
 
-        <project name="hw_media" path="hardware/qcom-caf/msm8998/media" remote="xyz-prjkt" revision="eleven_caf_msm8998" />
+        <project name="android_hardware_qcom_audio" path="hardware/qcom-caf/msm8998/audio" remote="LineageOS" revision="lineage-18.1-caf-msm8998" />
 
 </manifest>

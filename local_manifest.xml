@@ -6,14 +6,14 @@
         fetch="https://github.com/Ruega" />
     <remote name="Kendras056"
         fetch="https://github.com/Kendras056" />
-    <remote name="finix"
-        fetch="https://github.com/finix" />
+    <remote name="AnGgIt88"
+        fetch="https://github.com/AnGgIt88" />
 
        <!-- Sync trees -->
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Ruega" revision="11" />
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Ruega" revision="11" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="Ruega" revision="11" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Kendras056" revision="tom" />
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Kendras056" revision="req" />
 
        <!-- Remove -->
         <remove-project name="xd_packages_apps_SoftAPManager" />
@@ -21,7 +21,7 @@
         <remove-project name="xd_device_qcom_sepolicy-legacy-um" />
 
 	<!-- Tree -->
-        <project path="vendor/xdroid" name="xd_vendor_xdroid" remote="finix" revision="eleven" />
-        <project path="device/qcom/sepolicy-legacy-um" name="xd_device_qcom_sepolicy-legacy-um" remote="finix" revision="eleven" />
+        <project path="vendor/xdroid" name="xd_vendor_xdroid" remote="AnGgIt88" revision="eleven" />
+        <project path="device/qcom/sepolicy-legacy-um" name="xd_device_qcom_sepolicy-legacy-um" remote="AnGgIt88" revision="eleven" />
 
 </manifest>

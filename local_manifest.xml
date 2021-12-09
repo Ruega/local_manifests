@@ -23,8 +23,9 @@
         <remove-project name="xd_device_qcom_sepolicy-legacy-um" />
 
 	<!-- Tree -->
-        <project path="device/qcom/common" name="android_device_qcom_common" remote="P-404" revision="shinka" />
+        <project path="device/qcom/common" name="android_device_qcom_common" remote="P-404" revision="rippa" />
         <project path="vendor/xdroid" name="xd_vendor_xdroid" remote="AnGgIt88" revision="eleven" />
         <project path="device/qcom/sepolicy-legacy-um" name="xd_device_qcom_sepolicy-legacy-um" remote="AnGgIt88" revision="eleven" />
+        <project path="frameworks/base" name="android_frameworks_base" remote="P-404" revision="rippa" />
 
 </manifest>

@@ -16,14 +16,12 @@
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Kendras056" revision="req" />
 
        <!-- Remove -->
+        <remove-project name="hardware_qcom-caf_msm8996-r_display" />
         <remove-project name="xd_vendor_xdroid" />
-        <remove-project name="xd_system_sepolicy" />
-        <remove-project name="xd_device_xdroid_sepolicy" />
         <remove-project name="xd_device_qcom_sepolicy-legacy-um" />
 
 	<!-- Tree -->
-        <project path="system/sepolicy" name="xd_system_sepolicy" remote="AnGgIt88" revision="eleven" />
-        <project path="device/qcom/sepolicy" name="xd_device_xdroid_sepolicy" remote="AnGgIt88" revision="eleven" />
+        <project path="hardware/qcom-caf/msm8996-r/display" name="hardware_qcom-caf_msm8996_display" remote="AnGgIt88" revision="twelve" clone-depth="1" />
         <project path="vendor/xdroid" name="xd_vendor_xdroid" remote="AnGgIt88" revision="eleven" />
         <project path="device/qcom/sepolicy-legacy-um" name="xd_device_qcom_sepolicy-legacy-um" remote="AnGgIt88" revision="eleven" />
 

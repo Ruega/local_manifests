@@ -16,7 +16,6 @@
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Kendras056" revision="req" />
 
        <!-- Remove -->
-        <remove-project name="xd_packages_apps_SoftAPManager" />
         <remove-project name="xd_vendor_xdroid" />
         <remove-project name="xd_device_qcom_sepolicy-legacy-um" />
 

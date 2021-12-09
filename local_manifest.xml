@@ -8,6 +8,8 @@
         fetch="https://github.com/Kendras056" />
     <remote name="AnGgIt88"
         fetch="https://github.com/AnGgIt88" />
+    <remote name="P-404"
+        fetch="https://github.com/P-404" />
 
        <!-- Sync trees -->
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Ruega" revision="11" />
@@ -20,6 +22,7 @@
         <remove-project name="xd_device_qcom_sepolicy-legacy-um" />
 
 	<!-- Tree -->
+        <project path="android/framework/base" name="android_frameworks_base" remote="P-404" revision="shinka" />
         <project path="vendor/xdroid" name="xd_vendor_xdroid" remote="AnGgIt88" revision="eleven" />
         <project path="device/qcom/sepolicy-legacy-um" name="xd_device_qcom_sepolicy-legacy-um" remote="AnGgIt88" revision="eleven" />
 

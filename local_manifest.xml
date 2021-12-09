@@ -23,7 +23,7 @@
 
 	<!-- Tree -->
         <project path="system/sepolicy" name="xd_system_sepolicy" remote="AnGgIt88" revision="eleven" />
-        <project path="device/xdroid" name="xd_device_xdroid_sepolicy" remote="AnGgIt88" revision="eleven" />
+        <project path="device/qcom/sepolicy" name="xd_device_xdroid_sepolicy" remote="AnGgIt88" revision="eleven" />
         <project path="vendor/xdroid" name="xd_vendor_xdroid" remote="AnGgIt88" revision="eleven" />
         <project path="device/qcom/sepolicy-legacy-um" name="xd_device_qcom_sepolicy-legacy-um" remote="AnGgIt88" revision="eleven" />
 

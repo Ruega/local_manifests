@@ -4,8 +4,8 @@
 
     <remote name="Ruega"
         fetch="https://github.com/Ruega" />
-    <remote name="Kendras056"
-        fetch="https://github.com/Kendras056" />
+    <remote name="Vivekachooz"
+        fetch="https://github.com/Vivekachooz" />
     <remote name="P-404"
         fetch="https://github.com/P-404" />
 
@@ -13,7 +13,7 @@
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Ruega" revision="11" />
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Ruega" revision="11" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="Ruega" revision="11" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Kendras056" revision="req" />
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="Vivekachooz" revision="hackneyed" />
 
        <!-- Remove -->
         <remove-project name="xd_device_qcom_common" />

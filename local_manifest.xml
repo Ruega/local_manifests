@@ -4,11 +4,16 @@
 
     <remote name="Ruega"
         fetch="https://github.com/Ruega" />
+    <remote name="PotatoProject"
+        fetch="https://github.com/PotatoProject" />
 
        <!-- Sync trees -->
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Ruega" revision="12" />
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Ruega" revision="11" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="Ruega" revision="12" />
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="Ruega" revision="44" />
+
+       <!-- Sync hals -->
+        <project path="vendor/qcom/opensource/fm-commonsys" name="vendor_qcom_opensource_fm-commonsys" remote="PotatoProject" revision="frico-release" />
 
 </manifest>

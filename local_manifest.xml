@@ -14,7 +14,7 @@
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="Ruega" revision="44" />
 
        <!-- Sync hals -->
-        <remove-project name="android_vendor_opensource_fm-commonsys" />
+        <remove-project name="vendor_opensource_fm-commonsys" />
         <project path="vendor/qcom/opensource/fm-commonsys" name="vendor_qcom_opensource_fm-commonsys" remote="PotatoProject" revision="frico-release" />
 
 </manifest>

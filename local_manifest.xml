@@ -4,8 +4,8 @@
 
     <remote name="Ruega"
         fetch="https://github.com/Ruega" />
-    <remote name="PotatoProject"
-        fetch="https://github.com/PotatoProject" />
+   <remote name="hsx02"
+        fetch="https://github.com/hsx02"/>
 
        <!-- Sync trees -->
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Ruega" revision="12" />
@@ -13,8 +13,9 @@
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="Ruega" revision="12" />
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="Ruega" revision="44" />
 
-       <!-- Sync hals -->
-        <remove-project name="vendor_opensource_fm-commonsys" />
-        <project path="vendor/qcom/opensource/fm-commonsys" name="vendor_qcom_opensource_fm-commonsys" remote="PotatoProject" revision="frico-release" />
+       <!-- HALs -->
+        <remove-project name="android_hardware_qcom_wlan"/>
+        <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="hsx02" revision="lineage-18.1" />
+        <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="hsx02" revision="S" />
 
 </manifest>

@@ -11,12 +11,14 @@
         <remote name="aslenofarid"
         fetch="https://github.com/aslenofarid"
 
-        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Ruega" revision="10" />
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Ruega" revision="10" />
+        <project path="device/asus/sdm660-common" name="ct" remote="Ruega" revision="10" />
+        <project path="device/asus/X00TD" name="dt" remote="Ruega" revision="10" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="aslenofarid" revision="lineage-17.1" />
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="PixelExperience-Devices" revision="ten" />
 
         <remove-project name="LineageOS/android_frameworks_base" />
+        <remove-project name="LineageOS/android_packages_apps_Settings" />
         <project name="android_frameworks_base" path="frameworks/base" remote="Ruega" revision="lineage-17.1" />
+        <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="Ruega" revision="lineage-17.1" />
 
 </manifest>

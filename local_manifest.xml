@@ -6,8 +6,8 @@
           fetch="https://github.com/Ruega" />
   <remote name="Amritorock"
           fetch="https://gitlab.com/Amritorock" />
-  <remote name="Kneba"
-          fetch="https://github.com/Kneba" />
+  <remote name="wizard"
+          fetch="https://github.com/wizardprjkt" />
   <remote name="HoleDroid"
           fetch="https://github.com/HoleDroid" />
 
